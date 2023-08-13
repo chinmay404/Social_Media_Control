@@ -8,7 +8,7 @@ driver = None
 
 class App1Config(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app1'
+    name = 'insta'
 
     # def ready(self):
     #     global driver
