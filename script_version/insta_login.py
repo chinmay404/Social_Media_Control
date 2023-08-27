@@ -9,7 +9,7 @@ def login(username, password, password2):
     chrome_options = Options()
     chrome_options.add_argument('--window-size=1200,800')
     chrome_options.executable_path = 'chromedriver.exe'
-
+    chrome_options.add_argument('--headless')
     driver = webdriver.Chrome(options=chrome_options)
     wait = WebDriverWait(driver, 10)
 
